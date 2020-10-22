@@ -134,13 +134,20 @@ p {
 
 .app-store-btn::before {
 	padding-right: 8px;
-	content: '';
+/*	content: ''; */
+	font-size: 16px;
+}
+
+.androidapp-store-btn::before {
+	padding-right: 8px;
+/*	content: '';  */
 	font-size: 16px;
 }
 
 .app-icon {
 	width: 90px;
 	margin: 0 auto;
+	text-align: center;
 	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 	-webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 }
